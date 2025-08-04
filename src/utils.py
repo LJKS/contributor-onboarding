@@ -94,11 +94,10 @@ def return_random_number() -> int:
     ...
 
     Args:
-    a: float
-    b: float
+    no args
 
     Returns:
-    float
+    nd.array #ndarray with shape (0,), int dtype
     '''
 
     return np.random.randint(0, 100)
