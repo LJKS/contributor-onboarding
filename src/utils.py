@@ -78,6 +78,8 @@ def element_wise_multiply(a: np.array, b: np.array) -> np.array:
 
 def return_hexadecimal(number: int) -> float:
     '''
+    Turns input number into hexadecinmal string
+
     Args:
         number: int
     Returns:
