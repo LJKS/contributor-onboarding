@@ -9,7 +9,6 @@ def test_basic():
 
     #Act
     out_actual = utils.sum(in_a,in_b)
-
     #Assert
     test_passed = out_actual == out_expected
     assert test_passed, f'utils.sum({in_a}, {in_b}) should result in {out_expected}, but got: {out_actual}'
