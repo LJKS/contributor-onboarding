@@ -76,19 +76,16 @@ def element_wise_multiply(a: np.array, b: np.array) -> np.array:
 
     return np.multiply(a, b)
 
-def return_hexadecimal(a: int) -> float:
+def return_hexadecimal(number: int) -> float:
     '''
-    ...
-
     Args:
-    a: float
-    b: float
-
+        number: int
     Returns:
+        hexa: string, lowercase
     float
     '''
-
-    return hex(a)
+    hexa = hex(number)
+    return hexa
 
 
 def return_random_number() -> int:
