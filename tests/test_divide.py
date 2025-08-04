@@ -4,4 +4,4 @@ def test_divide():
     b = 2
     expected = 3
 
-    assert divide(a, b) == 3 f"Expected {expected}, but got {divide(a, b)}"
+    assert divide(a, b) == 3, f"Expected {expected}, but got {divide(a, b)}"
