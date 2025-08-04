@@ -55,9 +55,8 @@ def modulo(a: int, b: int):
     float
     '''
 
-    # I think this could be made more efficient?
-    result = a - (np.floor(a / b) * b)
-
+    result = a%b
+    
     return result
 
 def element_wise_multiply(a: np.array, b: np.array) -> np.array:
