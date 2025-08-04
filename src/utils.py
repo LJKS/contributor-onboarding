@@ -96,11 +96,10 @@ def return_random_number() -> int:
     ...
 
     Args:
-    a: float
-    b: float
+    no args
 
     Returns:
-    float
+    int
     '''
 
     return np.random.randint(0, 100)
