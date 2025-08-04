@@ -99,7 +99,7 @@ def return_random_number() -> int:
     no args
 
     Returns:
-    int
+    nd.array #ndarray with shape (0,), int dtype
     '''
 
     return np.random.randint(0, 100)
